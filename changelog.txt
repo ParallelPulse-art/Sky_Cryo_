@@ -1,0 +1,637 @@
+v2.0.8
+------
+- Removed Deinonychus and Eagle engines
+ - They are soft-deprecated so crafts in flight will not be affected. 
+ - The reasons for doing this should be evident. 
+ - They may be replaced in the future by different models. 
+
+v2.0.7
+------
+- Updated CryoTanks to 1.6.6
+- Updated ModuleManager to 4.2.3
+- Updated DynamicBatteryStorage to 2.3.1
+- Updated B9PartSwitch to 2.20.0
+- Bumped KSP versioning
+- Fixed incorrect title for Iguanodon 1.875m variant
+- Add support for VABOrganizer
+
+v2.0.6
+------
+- Updated CryoTanks to 1.6.4
+- Fixed VAB on-ness of Tharsis/Pavonis glows    
+
+v2.0.5
+------
+- Repacked 2.0.4
+- Updated CryoTanks to 1.6.3
+- Fixed seam on Tharsis/Pavonis engine glows
+
+v2.0.4
+------
+- Updated ModuleManager to 4.2.1
+- Updated DynamicBatteryStorage to 2.2.5
+- Fixed one of Tharsis' engine thrust points not moving with gimbal
+- Update Chinese translation (TerrestrisYE)
+
+v2.0.3
+------
+- Fixed compression format for some engine textures
+- Fixed Prometheus nozzle collider not moving with gimbal
+- Inspected and adjusted thrust transform centres for all engines, some fixes made
+- Inspected and adjusted surface attach colliders for all engines, some fixes made
+
+v2.0.2
+------
+- KSP 1.12
+- Updated B9PartSwitch to 2.18.0
+- Updated DeployableEngines to 1.3.1
+- Updated CryoTanks to 1.6.1
+- Updated DynamicBatteryStorage to 2.2.4
+- Fixed gimbal response speed flag missing on all engines
+- Fixed Eagle and Harrier masses: they were swapped before
+
+v2.0.1
+------
+- Updated Russian translation by r4ndom
+- Adjusted some engine core effects to look better
+- Zeroed Harrier thrust transforms
+- Updated Waterfall configurations to use new features from Waterfall 0.6.0 (thanks Zorg!)
+- Updated LFO extras patch to handle methalox engines 
+- Added new CryoEngines NFLV patch
+ - Converts Cougar, Lynx to use LH2/LF/O and LH2/O when installed
+
+v2.0.0
+------
+- Updated DeployableEngines to 1.3.0
+- Updated CryoTanks to 1.6.0
+- Updated DynamicBatteryStorage to 2.2.2
+- Updated Waterfall configurations to use new templates from Waterfall 0.5.0+
+- Increased entryCost of Pavonis from 4560 to 12600
+- Added new lineup of methalox engines
+ - MR-1 'Compsognathus' Liquid Rocket Engine: 0.625m booster engine (boattail, 0.625m, compact variants)
+ - MU-018 'Hawk' Liquid Rocket Engine: 0.625m entry-level vacuum engine  (0.625m, compact variants)
+ - MR-420 'Deinonychus' Liquid Rocket Engine: 1.25m powerful booster engine (boattail, 1.25m, compact variants)
+ - MU-10 'Buzzard' Liquid Rocket Engine: 1.25m average vacuum engine (1.25m, compact variants)
+ - MR-4 'Iguanodon' Liquid Rocket Engine: 1.875m workhorse booster engine (boattail, 1.875m, compact variants)
+ - MU-11 'Harrier' Liquid Rocket Engine: 1.875m versatile vacuum engine with cool verniers  (1.875m, compact variants)
+ - MR-8 'Allosaur' Liquid Rocket Engine: 2.5m booster engine (boattail, 2.5m, compact variants)
+ - MU-421 'Eagle' Liquid Rocket Engine: 2.5m overthrusted vacuum engine (2.5m, compact variants)
+ - MR-420-9 'Tyrannosaur' Liquid Rocket Engine Cluster: 3.75m engine cluster made of 9 deinonychii (finned, bare variants)
+ - MU-4U 'Vulture' Liquid Rocket Engine: 3.75m vacuum engine with massive deployable nozzle (3.75m, compact variants)
+
+
+v1.2.1
+------
+- Updated CryoTanks to 1.5.6
+- Deconflict Waterfall and CryoEngines configs (zorg)
+- Fix cargo parts for KSP < 1.11
+- Rework how engine fairings work in general to be more robust
+- Recompress some normal maps to improve visuals of engines
+
+v1.2.0
+------
+- Marked for KSP 1.11.x
+- Updated DynamicBatteryStorage to 2.2.1
+- Updated B9PartSwitch to 2.17.0
+- Updated CryoTanks to 1.5.5
+- Updated DeployableEngines to 1.2.3
+- Updated ModuleManager to 4.1.4
+- Waterfall configuration for all engines
+- Stromboli can be stored in inventories
+
+v1.1.4
+------
+- Marked for KSP 1.10.x
+- Updated DynamicBatteryStorage to 2.1.7
+- Updated B9PartSwitch to 2.17.0
+- Updated CryoTanks to 1.5.2
+- Updated DeployableEngines to 1.2.2
+- Updated ModuleManager to 4.1.4
+- New Russian localization by ra4nd0m
+- New Portugese localization by Rib3iroJr
+- LH2 engines patch now handles post 1.8 Restock properly (wyzard256)
+- Extended Isp curves for all engines past 4 atm
+
+v1.1.3
+------
+- Updated DynamicBatteryStorage to 2.1.6
+- Updated B9PartSwitch to 2.16.0
+- Updated CryoTanks to 1.5.0
+ - Fixed a typo in large ISRU under methalox mode
+ - Added ability to mark a tank in config as uncoolable (CoolingAllowed = false)
+ - Added special handling to the MH/RS+ soyuz tanks to allow them to use the switcher even though they have an engine module
+ - Tuned cost of LF-only tanks with the fuel switcher to be approximately $0.8/u (previously was 0.5)
+- Updated Spanish localization (fitiales)
+
+v1.1.2
+------
+- Updated CryoTanks to 1.4.3
+- Decreased Pavonis thrust to 160 from 180 kN
+- Decreased Tharsis thrust to 360 from 400 kN
+
+v1.1.1
+------
+- KSP 1.9.x
+- Updated B9PartSwitch to 2.13.0
+- Updated DynamicBatteryStorage to 2.1.5
+- Updated DeployableEngines to 1.2.1
+- Updated CryoTanks to 1.4.2
+- Updated ModuleManager to 4.1.3
+- Updated Chinese localization (tinygrox)
+
+v1.1.0
+------
+- Rebuilt for KSP 1.8.x
+- Updated B9PartSwitch to 2.12.1
+- Updated DynamicBatteryStorage to 2.1.0
+- Updated DeployableEngines to 1.2.0
+- Updated CryoTanks to 1.4.0
+- Updated ModuleManager to 4.1.0
+- DEPRECATED OLD CRYOENGINES MODELS
+- Etna RealPlume tweak (Zorg)
+
+v1.0.3
+------
+- Updated B9PartSwitch to 2.10.0
+- Updated DynamicBatteryStorage to 2.0.6
+- Updated CryoTanks to 1.3.0
+
+v1.0.2
+------
+- Updated B9PartSwitch to 2.9.0
+- Updated DynamicBatteryStorage to 2.0.4
+- Updated CryoTanks to 1.2.2
+- Fixed an issue where the 1.875m engines were not correctly scaled (~12.5% too small)
+- Made use of B9PartSwitch 2.9.0 features in several parts (UI colours, tooltips)
+- Fixed smokePoint transform rotation in sustainer type engines
+- Fixed plume offset in Etna RealPlume config (Zorg)
+
+v1.0.1
+------
+- Updated DynamicBatteryStorage to 2.0.3
+- Updated CryoTanks to 1.2.1
+- Changed RealPlume compatibility patch to use old syntax (Zorg)
+- Changed method used to render inner engine glows to be less visible in the editor
+
+v1.0.0
+------
+- Updated B9PartSwitch to 2.8.1
+- Updated DynamicBatteryStorage to 2.0.2
+  - Added support for GenericFieldDataHandler - a simple plug and play handler for other mods to use
+  - Fixed FissionFlowRadiator adding heat to the simulation instead of removing it
+  - Fixed two instances of null reference exceptions when switching vessels/scenes
+- Updated DeployableEngines to 1.1.0
+  - Added new ModuleAdvancedLookAtConstraint module
+    - Version of basic FXModuleLookConstraint with the addition of viewing vector stability
+    - Tries (mostly successfully) to ensure a constrained object's  up vector (green transform in unity) matches the up vector of the target object, which resolves problems with almost vertical/vertical gimbal pistons
+    - Same syntax for configs as FXModuleLookConstraint (see GitHub wiki for more details)
+- Updated CryoTanks to 1.2.0
+  - Fixed a localization typo
+  - Tuned VAB UI part tooltip fields for boiloff module
+  - Reworked textures of foil tanks to match Restock and Near Future Construction
+  - Normalized grey to be similar to all my other mods
+  - Recompressed all textures with better compression algorithm
+  - Added optional simplistic draft Liquid Methane support
+    - Slightly cryogenic (1/10th the boiloff rate of Liquid Hydrogen)
+    - Similar mass ratio to Liquid Fuel (9)
+    - Higher cost ratio compared to Liquid Fuel (0.12 vs 0.1)
+    - Enabled by declaring any MM patch with :FOR[CryoTanksMethalox] or including a folder in GameData called CryoTanksMethalox
+- Soft-deprecated entire old set of CryoEngines parts; they are replaced but invisible so people have time to adapt
+- New 0.625m engine:
+  - CR-10A 'Stromboli' Cryogenic Rocket Engine: Sustainer engine based on updated hypothetical DC-X RL-10-A5. 0.625m, Boattail and Compact variants
+- Revised 1.25m engines
+  - CR-2 'Vesuvius' Cryogenic Rocket Engine: Sustainer engine based on Ariane Vulcain 2. 1.25m, Boattail and Compact variants. Similar to old Volcano.
+  - CE-10 'Hecate' Cryogenic Rocket Engine: Vacuum engine with extensible nozzle based on RL-10-C2. 1.25m and Compact variants. Similar to old Chelyabinsk.
+- New 1.875m engines
+  - CR-0120 'Erebus' Cryogenic Rocket Engine: Sustainer engine based on Energia RD-0120. 1.875m, Boattail and Compact variants.
+  - CE-60 'Pavonis' Cryogenic Rocket Engine: Vacuum engine with extensible nozzle based on unflown RL-60. 1.875 and Compact variants.
+- Revised 2.5m engines
+  - CR-9 'Fuji' Cryogenic Rocket Engine: Sustainer engine based on JAXA LE-9. 2.5m, Boattail and Compact variants. Similar to old Odin.
+  - CE-2X 'Ulysses' Cryogenic Rocket Engine: Vacuum engine based on Constellation J2-X. 2.5m and Compact variants. Similar to old Tunguska.
+- Revised 3.75m engines
+  - CR-68 'Etna' Cryogenic Rocket Engine: Sustainer engine based on Delta IV RS-68. 3.75m, Boattail and Compact variants. Similar to old Mars.
+  - CE-602 'Tharsis' Cryogenic Engine Cluster: Vacuum engine cluster with extensible nozzles based on alternate Constellation upper stage option. 3.75m and Compact variants.
+- Restock style engine effect model and emissives propagated to all new parts
+- New plumes for all engines
+- RealPlume support for new plumes, courtesy of Zorg
+- Slightly tuned most revised engines in terms of mass, thrust and Isp compared to their predecessors
+- CryoEnginesLFO Extras package has been tuned to match the new content (typically 70s of Isp loss)
+- New Extras package: CryoEnginesRestock
+  - Adapts the appropriate ReStock and ReStockPlus engines into cryogenic engines (Vector, Mammoth, Rhino, Skipper, Corgi, Skiff/Caravel) with significant balance changes
+  - Changes the plume for the Rhino, Skiff/Caravel and Skipper to be appropriately cryogenic
+
+v0.7.1
+------
+- Reverted bad changes from 0.7.0 accidental update
+- Updated B9PartSwitch to 2.8.0
+- Updated DynamicBatteryStorage to 2.0.1
+- Updated CryoTanks to 1.1.4
+ - Changed LH2/O tank switcher patch to not activate cooling by default as such tanks are on average intended to be uncooled (thanks Zorg)
+
+v0.6.6
+------
+- KSP 1.7.x
+- Updated ModuleManager to 4.0.2
+- Updated CryoTanks to 1.1.1
+- Updated B9PartSwitch to 2.7.0
+- Updated DynamicBatteryStorage to 1.4.2
+- Updated DeployableEngines to 1.0.1
+
+v0.6.5
+------
+- Updated CryoTanks to 1.1.1
+- Improved German translation from Three_Pounds
+
+v0.6.4
+------
+- KSP 1.6.x
+- Updated ModuleManager to 3.1.3
+- Updated CryoTanks to 1.1.0
+- Updated B9PartSwitch to 2.6.0
+- Updated DynamicBatteryStorage to 1.4.0
+- Updated DeployableEngines to 1.0.0
+- Minor change to licensing of code/configs (MIT now)
+- Fixed EngineLight patch (thanks Nightside101010)
+- Renamed CryoEnginesMarkIV to CryoEnginesNFAero for accuracy
+
+v0.6.3
+------
+- KSP 1.5.1
+- Updated CryoTanks to 1.0.3
+- Updated B9PartSwitch to 2.4.5
+- Removed MiniAVC distribution
+
+v0.6.2
+------
+- KSP 1.5.0
+- Updated B9PartSwitch to 2.4.4
+- Updated MM to 3.1.0
+- Updated DynamicBatteryStorage to 1.3.3
+- Updated CRP to 1.0.0
+- Updated MiniAVC to 1.2.0.6
+- Updated CryoTanks to 1.0.2
+
+v0.6.1
+------
+- KSP 1.4.5
+- Updated B9PartSwitch to 2.3.3
+- Updated MM to 3.0.7
+- Updated DynamicBatteryStorage to 1.3.2
+- All engines now surface attachable by default
+- Removed Extras surface attach patch
+- Updated CryoTanks to 1.0.1
+-- Changed omni-tank patch to run AFTER several other mods that also omni patch.
+
+v0.6.0
+------
+- KSP 1.4.2
+- Updated bundled B9PartSwitch to 2.2.1
+- Updated MM to 3.0.6
+- Updated CRP to 0.10.0
+- Updated MiniAVC to 1.2.0.1
+- Updated DynamicBatteryStorage to 1.3.0
+- Added engine nicknames to tags
+- Decreased mass of Volcano to 1.3 from 1.6t (TWR to 16.4/18 from 13.4/14.6)
+- Decreased mass of Chelyabinsk to 0.55t from 0.7 (TWR to 3.1/10.2 from 2.4/8)
+- Decreased mass of Odin to 5 to 5.75t (TWR to 19.6/21.4 from 17.1/18.6)
+- Decreased mass of Tunguska to 2.25 from 2.75t (TWR to 5.2/12.5 from 4.2/10.2)
+- Decreased mass of Mars to 11.5 from 12.5t (TWR to 20.7/23.5 from 19.0/21.6)
+- Increased thrust of Yucutan to 1850 from 1450 kN (TWR to 12.0/21.8 from 9.4/17.1)
+- Moved Odin to Heavier Rocketry
+- Updated CryoTanks to 1.0.0
+-- Fixed boiloff being disabled if a tank's fuel was disabled
+-- Fixed boiloff rates being calculated incorrectly at timewarp
+-- Redid all tank textures, particularly foils
+-- Added 3 new tank models
+--- Short 2.5m (standard, compact variants)
+--- Short 3.75m (standard, compact, bare variants)
+--- Short 5m (standard, compact, bare variants)
+-- Fixed attach nodes of 3.75m compact tank variants
+-- Rebalanced capacities, masses and costs of all tanks
+-- Decreased cooling cost of ZBO tanks to 0.05 Ec/1000u
+-- Added an optional ability to specify a set of OUTPUT_RESOURCE blocks in a BOILOFFCONFIG. This causes boiloff to produce that resource with the specified ratio and flow mode. See Config Documentation section
+-- Added the optional ability to specify boiloff as dependent on solar/planetary radiation input. See Config Documentation section
+
+v0.5.11
+-------
+- Updated MM to 3.0.1
+- Updated B9PartSwitch to 2.1.0
+- Updated CryoTanks to 0.4.9
+-- Deconflict new WBI fuel switcher
+
+v0.5.10
+-------
+- Updated DynamicBatteryStorage to 1.2.0
+-- Fixed a bug that caused the buffer to be destroyed every second time it was created
+-- Fixed solar panel handling when Kopernicus is installed
+
+v0.5.9
+------
+- KSP 1.3.1
+- Dependency updates
+- CryoTanks 0.4.8
+-- Tanks no longer use up all EC
+
+v0.5.8
+------
+- CryoTanks 0.4.7
+-- Fixed an issue where parts with '_' in their name would not be patched properly
+
+v0.5.7
+------
+- Fixed engine normals
+- CryoTanks 0.4.6
+-- All tanks can now be cooled. Lifting tanks cast ~10% more to cool and have cooling disabled by default
+-- Repaired normals on tanks
+-- Fixed science costs of many tanks
+-- Refactored plugin to support multiple cryogenic fuels per tank
+-- Updates to MFT Compatibility
+- DynamicBatteryStorage 1.1.0
+-- Refactored plugin for many improvements
+-- Proper support for RealBattery
+
+v0.5.6
+------
+- Some improvements to Russian translation
+- CryoTanks 0.4.5
+-- Added Russian translation from vladmir_v
+-- Fixed a typo in the version file
+-- Fixed 5m tanks throwing a B9PartSwitch warning on placement in the VAB
+-- Fixed 3.75m tanks having collider issues
+-- Adjusted the position of the nodes for the compact variants of 3.75m tanks
+-- Fixed low cost of 5m hydrogen tanks
+-- Fixed slightly off cost of 10m hydrogen tank
+
+v0.5.5
+------
+- Updated bundled B9PartSwitch to 1.9.0
+- Updated bundled MM to 2.8.1
+- CryoTanks 0.4.4
+-- Fixed dry mass of LH2-only ZBO tanks
+
+v0.5.4
+------
+- Fixed DBS version file
+
+v0.5.3
+------
+- Added Spanish translation courtesy of fitiales
+- Added Russian, French, Japanese, Chinese, German translations courtesy of Next_Star_Industries
+- CryoTanks 0.4.3
+-- Added Spanish translation courtesy of fitiales
+- Updated DynamicBatteryStorage to 1.0.1
+-- Reduced logging
+-- Fixed an issue with generator parsing on ModuleResourceConverters
+
+v0.5.2
+------
+- Updated B9PartSwitch to version 1.8.1
+- CryoTanks 0.4.2
+-- Fix incorrectly exported model for small 2.5m hydrogen tank
+-- Fix doubled dry mass of all hydrogen-containing tanks
+
+v0.5.1
+------
+- CryoTanks 0.4.1
+-- Fixed volumes and descriptions of 5m hydrogen tanks
+-- Normalized specular exponents and normal map depths on all tanks
+-- Fixed a mesh duplication issue on 3.75m tanks
+-- Reduced instances of distorted tanget normal map seams on all tanks, where I couldn't fix it I've covered the worst instances with 'intentional' seams
+-- Restructured UV of 5m tanks to reduce tangent seam frequency
+
+v0.5.0
+------
+- KSP 1.3
+- Updated MM to 2.8.0
+- Updated B9PartSwitch to 1.8.0
+- Updated CRP to 0.7.1
+- Updated MiniAVC to 1.0.3.3
+- Setup parts to use KSP 1.3 localization
+- Renamed a few engines for consistency and VAB location
+- Fixed incorrect layer for most engine FX
+- Changed heat animations to use Throttle method (as in Kerbal Atomics)
+- Updated heat production values of engines, tied primarily to engine total power now
+- Adjusted IntakeAir consumption of Cutlass engine in LH2 patch
+- Significant improvements to CryoTanks package
+-- Now versioned (Version 0.4.0)
+-- Normalized LH2 tank mass ratios to 5 (from ~3.5), this affects all tanks containing LH2 or LH2/OX
+-- Normalized naming scheme for ZBO tanks to reflect their capacities
+-- Reworked tank capacities
+-- Improved fuel switching patch to account for more exceptions
+-- New 5m tank models (15m and 7.5m lengths)
+-- Deprecated 3.75m length tank variant for 3.75m inline tanks (temporary)
+-- Reworked models and textures for all fuel tanks
+-- New structureless variants for all inline tanks
+-- Optimized SimpleBoiloff plugin
+-- Cooling functions can now be disabled in the VAB
+-- Reduced the scope of the SimpleBoiloff plugin, most advanced functions are now part of DynamicBatteryStorage
+-- New sub-plugin: DynamicBatteryStorage
+--- Dynamically adjusts EC storage to combat KSP crap resource mechanics at high timewarp
+
+v0.4.6
+------
+- Updated bundled B9PartSwitch to 1.7.1
+- Updated CRP to 0.6.6
+- Updated AVC link
+- Added description to VL-1 Volcano
+- Fixed incorrect naming of normal maps for 3.75m engines
+- Fixed a boiloff issue that could occur when switching ships that were close to each other
+
+v0.4.5
+------
+- Marked for KSP 1.2.2
+- Updated bundled MM to 2.7.5
+- Updated bundled B9PartSwitch to 1.5.3
+- Updated bundled CRP to 0.6.4
+- Updated DeployableEngines to 2.1.0
+
+v0.4.4
+------
+- Added optional Extras patch to convert the Mark IV Spaceplane CUTLASS Engine to use LH2/LH2O for a fuel. Bonus 55 Isp, 50 kN thrust, -0.9t mass when enabled.
+
+v0.4.3
+------
+- Marked for KSP 1.2.1
+- Updated MM to 2.7.4
+- Updated CRP to 0.6.3
+- KPBS ISRU now produces LH2 (thanks Wyzard256)
+
+v0.4.2
+------
+- Updated CRP to 6.0.1
+- Fixed exceptions in VAB when using a ZBO tank for holding only non-cryo fuels
+- Fixed incorrect dry masses for ZBO tanks
+- Decreased cost and research cost of all engines to be more like 1.15-1.25x their LFO equivalents
+
+v0.4.1
+------
+- Fixed contract killing issues
+
+v0.4.0
+------
+- KSP 1.2
+- Updated bundled MM
+- Updated bundled CRP
+- Updated bundled B9PartSwitch
+- Updated DeployableEngines
+- Reexported engine FX to fix interaction with atmospheric/highlight FX
+- Changed naming of engine variants
+- New colliders for engine variants to more accurately represent their structures
+- CryoTanks:
+-- General functionality improvements
+-- Tank real power usage is now shown in the info box
+-- Right clicking on a tank in the VAB now displays its power usage
+-- New analytics mode that runs at 1000x time warp and up which should do a much better job of calculating boiloff
+-- Lifting and ZBO tanks now have the same mass ratio
+-- ZBO tanks have a new alternate model that can be selected
+
+v0.3.6
+------
+- Fixed bug that caused propellant to keep boiling off even if power was restored
+
+v0.3.5
+------
+- Fixed deleted bundled MM
+- Fixed extra bundled dlls that break everything
+
+v0.3.3
+------
+- KSP 1.1.3
+- Updated bundled CRP
+- Updated bundled DeployableEngines
+- Updated bundled MM
+- Updated bundled B9PartSwitch
+- Fixed several bugs related to CryoTanks boiloff
+
+v0.3.2
+------
+- KSP 1.1.2
+- Update bundled B9PartSwitch
+- Update bundled CRP
+- Fix switchable tank mass and cost issues
+
+v0.3.0
+------
+- KSP 1.1 repack
+- Updated CRP version
+- Updated bundled MM version
+- Deprecated IFS in favour of B9PartSwitch
+- Added part search tags for parts
+
+v0.2.1
+------
+- Updated bundled CRP to 0.4.9.0
+- Moved ISRU patch into CryoTanks folder, fixed ratios to new 15:1 mode from 0.2.0
+- Fixed ISRU patch not affecting the mini ISRU
+- Reduced mass of Volcano to 1.6 from 1.8, decreased thrust to 230 from 275, increased SL/Vac Isp to 385/422 from 360/410
+- Reduced mass of Chelyabinsk to 0.7 from 0.8, increased Vac Isp to 465 from 455
+- Reduced mass of Odin to 5.75 from 7.25, increased SL/Vac Isp to 385/420 from 365/415
+- Reduced mass of Tunguska to 2.75 from 3.45, increased Vac Isp to 455 from 450
+- Reduced mass of Mars to 13.25 from 12.5, increased SL/Vac Isp to 365/415 from 355/405
+- Reduced mass of Yucutan to 8.65 from 8.95, increased SL/Vac Isp to 245/445 from 235/435
+- Reduced boiloff cooling cost to 0.08 Ec/1000u from 0.1 Ec/1000u
+
+v0.2.0
+------
+- Deprecated BDAnimationModules
+- Bundled a new plugin, DeployableEngines, which does the things that BDAnimationModules did
+- Added situation masks to contract parameters
+- Fuel tanks containing LiquidHydrogen are now split into lifting tanks and insulated tanks
+- Lifting tanks are all standard stock fuel tanks
+- Lifting tanks have good mass ratios, but LiquidHydrogen contained in them boils away over time
+- Insulated tanks are the large gold foil tanks that used to be in NF Propulsion
+- Insulated tanks have poor mass ratios, but consume ElectricCharge to stop the LiquidHydrogen from evaporating
+- Changes to the base masses, mix ratios and capacities of LiquidHydrogen tanks
+
+v0.1.11
+-------
+- Updated for KSP 1.05
+- Updated ISFuelSwitch plugin to 1.18
+- Updated to latest CRP version (0.4.7)
+- Updated ModuleManager version (2.6.13)
+- Updated funk's MFT patch
+
+v0.1.10
+------
+- Updated ISFuelSwitch plugin to 1.16
+- Updated to latest CRP version (0.4.4)
+- Updated ModuleManager version (2.6.6)
+- Bundled Mini-AVC for versioning
+- Fixed a capitalization error in CryoEnginesLFO patch
+- Fixed MFT patch to be mutually exclusive with RealFuels
+- Added new versions of all engines that lack the support ring around the top. Toggle in the editor.
+- Added new optional patch: CryoEnginesSurfaceAttach, which allows all engines to be surface attached
+
+v0.1.9
+------
+- Updated ISFuelSwitch plugin
+- Updated to latest CRP version
+- Update to fuel switch patch
+
+v0.1.8
+------
+- Updated bundled MM, ISFuelSwitch plugins
+- Fixed Odin offset smoke
+- Updated a few thermal values for 1.04
+- Rewrite of tank fuel switching patch for better balance, courtesy of several forumgoers
+- ISRU can now produce LH2 and LH2+Ox mixes
+
+v0.1.7
+------
+- Fixed LF/O/MP tank patch
+- New MFT patch from funk
+- Fixed dry mass in tank patch not adjusting.
+
+v0.1.6
+------
+- Updated included ModuleManager to 2.6.5
+- Updated included InterstellarFuelSwitch to 1.7 (fixes a couple bugs)
+- Added a patch for EngineLight that will tweak some colours on some engines
+- Fixed fuel switch patch for stock tanks to give much more logical ratios
+- Fuel switch patch now doesn't target parts with integral engines
+- Fuel switch patch functions on LF/O/MP tanks too (preserves the MP)
+- Fuel switch patch also targets LH2 orbital tanks from NFP 0.5.0+, adds ability to load LH2/OX and OX
+- Minor tweaks to cost of most engines
+- Included patches for ModularFuelTanks and ProceduralParts
+- Adjusted thrust/isp of the Tunguska to move it into a similar slot as the Skipper
+- Adjusted mass/isp of the Volcano to make it a little less overpowered
+- Added mipmaps to all .dds textures
+- Chelyabinsk now starts retracted and extends when staged
+
+v0.1.5
+------
+- Fixed LFO patch targeting wrong 1.25m engines
+- Fixed tank patch targeting LF/O/MP tanks, which it shouldn't have
+- Updated to the latest version of InterstellarFuelSwitch
+
+v0.1.4
+------
+- Fixed tank cost calculations
+- Added optional patch to convert engines to use LFO at cost of 20s of Isp
+
+v0.1.3
+------
+- Fixed engine thrusts for KSP 1.01
+- Actually updated included ModuleManager to 2.6.2
+- Removed Firespitter, replaced with InterstellarFuelSwitch
+- Fixed missing smoke trench FX
+- Increased atmospheric performance of lift engines
+- Added CTT 2.0 support
+
+v0.1.2
+------
+- Updated included ModuleManager to 2.6.2
+- Fixed Volcano's heat generation and thrust numbers being switched
+- Increased atmospheric engine thrusts by ~5%
+- Increased Isps slightly across the board (10s)
+- Fixed fuel switch patch leaving stock fuels in the tank on launch
+- Fixed lower stage 1.25m engine and both 3.75m engines being assigned to a non-extant tech node
+- Removed extra tga textures for 3.75m engines
+
+v0.1.1
+------
+- Bundled CRP was missing
+
+v0.1.0
+------
+- Initial Release
